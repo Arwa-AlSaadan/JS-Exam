@@ -9,7 +9,7 @@
 
     let timingsPrint = document.getElementById("prayer-timings")
     
-    fetch('http://api.aladhan.com/v1/calendar/2023/4?latitude=51.508515&longitude=-0.1254872&method=2%20http://api.aladhan.com/v1/calendar/2023?latitude=51.508515&longitude=-0.1254872&method=11')
+    fetch('https://api.aladhan.com/v1/calendar/2023/4?latitude=51.508515&longitude=-0.1254872&method=2%20http://api.aladhan.com/v1/calendar/2023?latitude=51.508515&longitude=-0.1254872&method=11')
       .then((response) => response.json())
       .then((json) => {
         
