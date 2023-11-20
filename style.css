@@ -1,0 +1,77 @@
+
+/* .container{
+    justify-content: center;
+    overflow: hidden;
+
+    margin-left: 3px;
+} */
+
+
+.content{
+
+    width: 50%;
+    /* height: fit-content; */
+    display: flex;
+    flex-direction: column;
+    border: groove;
+    border-radius: 15px;
+    padding: 20px;
+    height: 20%;
+    /* height: fit-content; */
+}
+
+.container{
+   height: 90vh;
+   /* background-color: rgba(128, 128, 128, 0.226); */
+   /* height: fit-content; */
+
+}
+
+.style-content{
+    /* border: blue solid; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container{
+    height: 100%;
+    /* background-color: rgba(128, 128, 128, 0.226); */
+    
+    /* height: fit-content; */
+ 
+ }
+
+
+ #content-div{
+
+    width: 50%;
+    /* height: fit-content; */
+    display: flex;
+    flex-direction: column;
+    border: groove;
+    border-radius: 15px;
+    padding: 20px;
+    /* height: 100%; */
+    height: fit-content;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+
+ }
+
+
+ .content-signUp{
+    width: 50%;
+    /* height: fit-content; */
+    display: flex;
+    flex-direction: column;
+    border: groove;
+    border-radius: 15px;
+    padding: 20px;
+    height: 20%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+
+ }
